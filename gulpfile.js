@@ -13,7 +13,7 @@ var DIST_DIR = './dist/';
 
 var paths = {
     sass : {
-        entry : SRC_DIR + 'styles/main.scss',
+        entry : SRC_DIR + 'style/*.scss',
         src : SRC_DIR + 'style/**/*.scss',
         dist : DIST_DIR + 'css'
     },
