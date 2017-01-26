@@ -1,0 +1,21 @@
+{
+  "name": "Promo_site",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "ShliaevArtem <shliaeu@inbox.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "singularity": "^1.7.1"
+  }
+}
