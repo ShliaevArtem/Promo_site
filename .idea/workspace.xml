@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c3b483-0797-4176-add5-1f919ad3d7e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/welcom.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Promo_site.iml" afterPath="$PROJECT_DIR$/.idea/Promo_site.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Promo_site.iws" />
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/welcom.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -276,7 +274,7 @@
       <workItem from="1485429751057" duration="53000" />
       <workItem from="1485429855252" duration="20000" />
       <workItem from="1485430029929" duration="218000" />
-      <workItem from="1485430305193" duration="21000" />
+      <workItem from="1485430305193" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1485429021836</created>
@@ -285,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485429021836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1485430334605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1485430334605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9887000" />
+    <option name="totallyTimeSpent" value="9940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -419,7 +424,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/welcom.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
