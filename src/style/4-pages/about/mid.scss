@@ -1,0 +1,138 @@
+h1, p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+.about_mid{
+  flex: 1;
+  display: flex;
+  height: 850px;
+  flex-wrap: wrap;
+
+}
+//////////////////// Left side/////////////////////
+.about_me_left{
+  flex: 1;
+  //float: left;
+  width: 50%;
+  min-width: 320px;
+
+  background-color: #E6E6FA;
+  height: rem(850);
+}
+
+.img_1{
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 25rem;
+  width: 28.125rem;
+  //max-width: 100%;
+  background: url("../../src/img/its_me.png") no-repeat;
+
+}
+hr.line{
+
+  width: 25%;
+  border: none;
+  margin: 0 auto;
+  background-color: black;
+  height: 4px;
+
+}
+.about_me_h1{
+  text-align: center;
+  font-size: 2rem;
+
+}
+.who_i_am{
+  margin-top: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
+.about_me{
+  text-align: center;
+  //margin: 10px;
+}
+.about_me_p{
+  margin: 10px 30px;
+}
+
+
+//////////////////// Right side/////////////////////
+
+.about_me_right{
+
+  flex: 1 1;
+
+  width: 50%;
+  min-width: 320px;
+  background-color: #DCDCDC;
+  height: 850px;
+}
+.about_h2{
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+.about_me_h2{
+  font-size: 2rem;
+}
+
+.piechart{
+  //margin-top: 15px;
+width: 120px;
+height: 120px;
+  &__bg{
+  stroke: #d0d2d2;
+  stroke-dashoffset: 0;
+  }
+  &__fill{
+  stroke: #FFFF66;
+
+    transition: stroke-dashoffset 1.5s;
+  }
+}
+
+.skills__group{
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: left;
+  text-align: justify;
+}
+.skills__group::after{
+  content: "";
+  display: inline-block;
+  width: 50%;
+  height: 0;
+}
+// Group Skill Name
+.group_title{
+  font-size: em(28,16);
+  color: #455A64;
+  margin: 20px 0;
+
+}
+.group__item{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+// Skill Name
+.group__item .item-title{
+  position: absolute;
+  width: 120px;
+  color: #00BFA5;
+  top: 50%;
+  transform: translateY(-55%);
+}
+
+
+
+/////////////////////
+

@@ -1,0 +1,123 @@
+html{
+  font-size: 16px;
+}
+
+//Окнов входа
+.content_login{
+
+  width: 23.75rem;
+  height: 26rem;
+  display: block;
+  background-color: rgba(205, 205, 205, 0.4);
+  border-radius: 0 0 0.625rem 0.625rem;
+  position: absolute;
+
+
+
+}
+// Аватарка
+.avatar{
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50% 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.ava{
+  width: 100%;
+  margin-top: -3.125rem;
+}
+//Инф о владельце
+.inf_web{
+  text-align: center;
+  color: white;
+  margin-top: 1.25rem;
+}
+.name_surname{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+.web{
+  margin-top: 0.7rem;
+  font-size: 1rem;
+  opacity: 0.5;
+  padding: 0;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+//Социалки
+.social_welcome{
+  display: block;
+  text-align: center;
+  margin: rem(24) 0;
+}
+
+.git_img{
+  margin: 0 1.875rem 0 1.875rem;
+}
+.social{
+
+  margin: 0 10px;
+}
+a svg:hover #vk_svg{
+  fill: rgba(74, 121, 66, 0.6);
+
+}
+
+//Кнопки действий
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+
+
+
+.group_button{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:center;
+  align-items: end;
+
+}
+.bt_about, .bt_work, .bt_blog{
+
+  line-height: 47px; //высота кнопки
+  flex-grow: 1;
+  margin: auto;
+  text-align: center;
+
+  background-color: rgba(73, 121, 92, 0.6);
+    &:hover{
+      background-color: rgb(73, 121, 92);
+  }
+}
+
+.bt_about{
+  border-left: 2px solid  rgba(222, 227, 231, 0.6);
+  border-right: 2px solid rgba(222, 227, 231, 0.6);
+}
+.bt_work{
+  border-radius:  0 0 0 0.625rem;
+
+}
+.bt_blog{
+  border-radius:  0 0  0.625rem 0;
+}
+
+a.bt_work:visited {
+  color: white;
+}a.bt_about:visited {
+  color: white;
+}a.bt_blog:visited {
+  color: white;
+}
