@@ -24,15 +24,16 @@
 .tmproj
 Thumbs.db
 
-
 # Folders to ignore
-_materials
 .CVS
 .git
 .hg
 .idea
 .svn
+bower_components
+dist
+build
+
+# Node.JS
 node_modules
-public
-templates
-users/*
+npm-debug.log
