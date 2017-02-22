@@ -1,0 +1,84 @@
+body
+  max-width: 1800px
+  margin: 0 auto
+.works_top
+  flex: 1
+  max-width: 100vw
+  height: 100vh
+  background: url("../img/bg_8.jpg") no-repeat center
+  background-size: cover
+  position: relative
+  overflow: hidden
+  background-attachment: fixed
+
+.works_triangle
+  bottom: -315px
+  height: 800px
+
+
+
+
+.works_triangle_left
+  width: 50%
+  position: absolute
+  float: left
+  left: 0
+  fill: white
+
+.works_triangle_right
+  width: 50%
+  float: right
+  position: absolute
+  right: 0
+  fill: white
+
+.avatar_section_works
+  position: absolute
+  top: 35%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 1
+
+.arrow_works
+
+  cursor: pointer
+  position: absolute
+  bottom: 180px
+  left: 50%
+  transform: translate(-50%)
+  transition: all 0.3s
+  &.arrow_works:hover
+    padding-top: 10px
+    bottom: 160px
+
+.works_svg
+  position: absolute
+  bottom: -20px
+  left: 50%
+  transform: translate(-50%)
+  fill: black
+
+  opacity: 0.3
+.works__svg-bg
+
+  position: absolute
+  top: 40%
+  left: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  width: 90%
+  height: 100%
+  z-index: 0
+  fill: #fff
+  opacity: .3
+
+.my_works
+  font-size: 2rem
+  position: absolute
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+  bottom: 0px
+  left: 50%
+  transform: translate(-50%)
+  fill: black
